@@ -19,6 +19,7 @@ input:focus, textarea:focus {
 input[type="submit"] {
   padding: 6px 12px;
   width: 100%;
+  cursor: pointer;
 }
 input[type="submit"]:focus {
   border-color: #DDDCDD;
