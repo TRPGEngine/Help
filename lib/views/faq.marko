@@ -1,3 +1,5 @@
+import faq from '../../config/faq'
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,17 +10,9 @@
   </head>
   <body>
     <ul class="faq">
-      <li>
-        <p>问题e</p>
-        <p>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
-      </li>
-      <li>
-        <p>问题一</p>
-        <p>回答</p>
-      </li>
-      <li>
-        <p>问题一</p>
-        <p>回答</p>
+      <li for(item in faq.list)>
+        <p>${item[0]}</p>
+        <p>${item[1]}</p>
       </li>
     </ul>
   </body>
